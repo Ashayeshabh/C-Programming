@@ -1,0 +1,59 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int m;
+    printf("Enter a number from 1-7");
+    scanf("%d",&m);
+    if(m==1)
+    {
+        printf("Sunday");
+    }
+    else
+    {
+        if(m==2)
+        {
+            printf("Monday");
+        }
+        else
+        {
+            if(m==3)
+            {
+                printf("Tuesday");
+            }
+            else
+            {
+                if(m==4)
+                {
+                    printf("Wednesday");
+                }
+                else
+                {
+                    if(m==5)
+                    {
+                        printf("Thursday");
+                    }
+                    else
+                    {
+                        if(m==6)
+                        {
+                            printf("Friday");
+                        }
+                        else
+                        {
+                            if(m==7)
+                            {
+                                printf("Saturday");
+                            }
+                            else
+                            {
+                                printf("Wrong Choice");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return 0;
+}    
